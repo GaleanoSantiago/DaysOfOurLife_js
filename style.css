@@ -304,12 +304,12 @@ select{
 
 /*----------Footer----------*/
 #footer {
-    position:fixed;
+    /* position:fixed; */
     left:0px;
     bottom:0px;
     height:50px;
     width:100%;
-    background:var(--negroIn);
+    /* background:var(--negroIn); */
     color:var(--white_1);
     padding-top:10px;
     text-align: center;
@@ -476,6 +476,13 @@ select{
 
     }
 
+    #footer {
+        margin:auto;
+        width:90%;
+        padding-top:10px;
+        text-align: center;
+        /* margin-top:10px; */
+     }
 }
 
 /*Celulares extra angostos*/
@@ -498,4 +505,11 @@ select{
         font-size: 20px !important;
     }
 
+    #footer {
+        margin:auto;
+        width:90%;
+        padding-top:10px;
+        text-align: center;
+        /* margin-top:10px; */
+     }
 }
